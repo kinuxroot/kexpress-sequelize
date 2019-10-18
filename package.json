@@ -1,0 +1,41 @@
+{
+  "name": "@kexpress/store-sequelize",
+  "version": "0.0.1",
+  "description": "Sequelize enhancement for kexpress",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build": "tsc",
+    "ts-node": "ts-node -r tsconfig-paths/register",
+    "dev": "cross-env NODE_ENV=dev ts-node src/loader.ts",
+    "test": "jest"
+  },
+  "repository": "https://github.com/kinuxroot/kexpress-sequelize.git",
+  "author": "kinuxroot <kinuxroot@163.com>",
+  "license": "MIT",
+  "dependencies": {
+    "glob": "^7.1.4",
+    "lodash": "^4.17.15",
+    "log4js": "^5.2.2"
+  },
+  "devDependencies": {
+    "@types/glob": "^7.1.1",
+    "@types/lodash": "^4.14.144",
+    "@typescript-eslint/eslint-plugin": "^2.4.0",
+    "@typescript-eslint/parser": "^2.4.0",
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "husky": "^3.0.9",
+    "jest": "^24.9.0",
+    "lint-staged": "^9.4.2",
+    "sequelize": "^5.19.8",
+    "ts-jest": "^24.1.0",
+    "ts-node": "^8.4.1",
+    "tsconfig-paths": "^3.9.0",
+    "tslint": "^5.20.0",
+    "typescript": "^3.6.4"
+  }
+}
